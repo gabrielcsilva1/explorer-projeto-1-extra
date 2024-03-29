@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --line-color: #eceff2;
+  --font-black-color: #3f3d56;
+  --font-light-color: #828282;
+  --pink: #ee24ff;
+
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+  position: relative;
+
+  padding-bottom: 14.2vw;
+}
+
+.page {
+  padding-top: 6.4rem;
+  margin: auto;
+  max-width: 620px;
+
+  text-align: center;
+}
+
+.company-name {
+  color: var(--font-light-color);
+  font-weight: bold;
+}
+
+.line {
+  border: 1px solid var(--line-color);
+  margin: 6.4rem auto 1.6rem;
+  width: 39rem;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  color: var(--font-black-color);
+  font-size: 3.2rem;
+  font-weight: 500;
+
+  margin: 3.2rem 0 1.6rem;
+}
+
+span {
+  color: var(--pink);
+  font-weight: 700;
+}
+
+p {
+  color: var(--font-light-color);
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+
+  margin-bottom: 3.2rem;
+}
+
+p > strong {
+  color: var(--font-black-color);
+}
+
+ul {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  gap: 4.2rem;
+}
+
+a {
+  color: var(--font-black-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#wave {
+  position: absolute;
+  bottom: 0px;
+
+  width: 100%;
+}
